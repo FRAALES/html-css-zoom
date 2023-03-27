@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* Regole Header */
+
+
+header{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Regole Main */
+
+.row{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.thumb{
+    width: calc(100%/7);
+}
+
+.thumb img{
+    max-width: 100%;
+    max-height: 100%;
+}
