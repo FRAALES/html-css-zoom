@@ -18,7 +18,22 @@
 header{
     width: 100%;
     height: 10vh;
+    position: relative;
 }
+
+.grey-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
 
 
 /* Regole Main */
@@ -31,7 +46,6 @@ main{
     background-color: black;
     overflow-y: auto;
     height: 80vh;
-
 }
 
 
