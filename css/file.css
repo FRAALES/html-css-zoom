@@ -63,9 +63,26 @@ main{
     width: calc (100%/7);
     justify-content: space-around;
     margin: 5px;
+    position: relative;
 }
 
 .thumb img{
     max-width: 100%;
     max-height: 100%;
 }
+
+.thumb-icon{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 10%;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
